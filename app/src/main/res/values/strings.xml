@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!--Button "icon" texts -->
+    <string name="button0">%</string>
+    <string name="button1">√</string>
+    <string name="button2">x²</string>
+    <string name="button3">1/x</string>
+    <string name="button4">CE</string>
+    <string name="button5">C</string>
+    <string name="button6">	⌫</string>
+    <string name="button7">÷</string>
+    <string name="button8">7</string>
+    <string name="button9">8</string>
+    <string name="button10">9</string>
+    <string name="button11">x</string>
+    <string name="button12">4</string>
+    <string name="button13">5</string>
+    <string name="button14">6</string>
+    <string name="button15">-</string>
+    <string name="button16">1</string>
+    <string name="button17">2</string>
+    <string name="button18">3</string>
+    <string name="button19">+</string>
+    <string name="button20">±</string>
+    <string name="button21">0</string>
+    <string name="button22">.</string>
+    <string name="button23">=</string>
+
+
+
+</resources>

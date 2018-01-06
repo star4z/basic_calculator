@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.calculator.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/text_box"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:maxLines="1"
+                android:textSize="56sp"
+                android:textAlignment="textEnd"
+                tools:text="0"/>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+
+    <GridLayout
+        android:id="@+id/button_panel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:background="#c9afff">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_0"
+            android:text="@string/button0" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_1"
+            android:text="@string/button1" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_2"
+            android:text="@string/button2" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_3"
+            android:text="@string/button3" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_4"
+            android:text="@string/button4" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_5"
+            android:text="@string/button5" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_6"
+            android:text="@string/button6" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_7"
+            android:text="@string/button7" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_8"
+            android:text="@string/button8" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_9"
+            android:text="@string/button9" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_10"
+            android:text="@string/button10" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_11"
+            android:text="@string/button11" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_12"
+            android:text="@string/button12" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_13"
+            android:text="@string/button13" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_14"
+            android:text="@string/button14" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_15"
+            android:text="@string/button15" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_16"
+            android:text="@string/button16" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_17"
+            android:text="@string/button17" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_18"
+            android:text="@string/button18" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_19"
+            android:text="@string/button19" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_20"
+            android:text="@string/button20" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_21"
+            android:text="@string/button21" />
+
+        <Button
+            style="@style/NumberButtonStyle"
+            android:id="@+id/button_22"
+            android:text="@string/button22" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_23"
+            android:text="@string/button23" />
+
+    </GridLayout>
+
+</LinearLayout>
